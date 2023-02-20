@@ -39,9 +39,7 @@ jobs:
 
       # Push the changes
      - name: generate-snake-game-from-github-contribution-grid
-  uses: Platane/snk@v1.1.4
-
-        uses: ad-m/github-push-action@master
+        uses: Platane/snk@v1.1.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
